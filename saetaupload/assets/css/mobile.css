@@ -1,0 +1,168 @@
+
+  
+  @media (max-width: 600px) { 
+    .navbar {
+        height:80px;
+    }
+
+    .navbar .logo img{
+        width: 140px;
+        height: 50px;
+    }
+
+    .section{
+        height: 40vh;
+        align-items: flex-start;
+        padding: 80px;
+    }
+
+   .cme{
+        padding: 10px;
+        height: 100px;
+        align-items: center;
+      }
+
+
+    .section .cme .sg{
+        font-size: 24px;
+        text-align: center  ;
+    }
+  
+    .section .cme .sg2{
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .section .cme .sgp{
+      color:#58595B;
+      font-size: 6px;
+      width: 300px;
+      text-align: center;
+    }
+  
+
+  
+  
+ 
+    
+  }
+  
+  
+  
+
+  @media (min-width: 992px) {
+  .navbar {
+      height:120px;
+  }
+
+}
+
+@media (max-width: 480px) { 
+  .content .sg{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .content .sg2{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .content .sgp{
+    color:#58595B;
+    font-size: 12px;
+    width: 370px;
+    text-align: center;
+  }
+
+  .content{
+    height:600px;
+  }
+
+  .container{
+    height:1080px;
+  }
+  
+  .section2{
+      height: 200vh;
+  }
+
+  .section_about{
+      height: 80vh;
+  }
+
+  .con3{
+      margin: 1px;
+      padding: 1px;
+  }
+
+ .text{
+      font-size: 8px;
+  }
+
+  .text_2{
+      font-size: 6px;
+      width: 120px;
+      text-align: start;
+  }
+
+  .secimg{
+      width: 200px;
+      height: 120px;
+  }
+
+  .section_ending{
+      height:90vh;
+      width: 75vh;
+  }
+
+
+  .colx {
+      width: 250px;
+      height: 100px;
+      /* background-color: red; */
+  }
+
+  .ending{
+      margin: 0;
+      padding: 5px;
+      /* background-color: lawngreen; */
+  }
+
+  .ending p{   
+   font-size: 8px;
+   width: 150px;
+   margin: 0;
+   padding: 0;
+   /* background-color: khaki; */
+  }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .section_ending .d-flex img{
+    width:60px;
+    height:60px;
+  }
+  .section_ending .ending{
+    font-size: 12px;
+  }
+
+
+
+   .container_ending {
+    width: 350px;
+    height: max-content;
+  }
+
+
+  .ending{   
+    width: 250px;
+  }
+
+
+
+}
